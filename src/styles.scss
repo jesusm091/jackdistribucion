@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/styles/sidebar.scss';
+@import 'assets/styles/pages.scss';
+
+
+body
+{
+font-family: "Is_Mazda_rg", Arial, Helvetica;
+margin-left: auto;
+margin-right: auto;
+width:100vw;
+position:relative;
+overflow-x: hidden !important;
+background-color:black;
+}
+
+/* @font-face 
+{
+font-family: Mazda_rg;
+src: url("../font-face/Mazda_Bd.ttf") format("truetype"),
+     url("../font-face/Mazda_Bd.eot") format("embedded-opentype"),
+     url("../font-face/Mazda_Bold.woff") format("woff");
+}
+@font-face 
+{
+font-family: Is_Mazda_rg;
+src: url("../font-face/InterstateMazda-Regular.ttf") format("truetype");
+} */

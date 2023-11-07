@@ -1,0 +1,546 @@
+.title-color{
+    color: #53b2fd;
+}
+
+#iosfix
+{
+margin-left:0vw;
+top:5vw;
+}
+
+/*added 29/9/2017*/
+.megabody
+{
+width:40vw ;
+margin: 0 auto;
+}
+
+.megaleft
+{
+width:48%; 
+float:left;
+line-height: 25px; 
+font-size:18px;
+}
+
+.megaleft1
+{
+display:none;
+}
+
+.megaright
+{
+width:48%; 
+float:right; 
+color:white; 
+text-align:justify; 
+line-height: 25px; 
+font-size:18px;
+}
+
+
+.megaleft2
+{
+width:45%; 
+float:left; 
+font-size:18px;
+line-height:25px; 
+text-align:justify;
+}
+
+.megaright2
+{
+width:50%; 
+float:right;
+margin-top:20%;
+}
+/*end */
+
+
+.maintext
+{
+text-align:center;
+padding-top:20px;
+top:10vw;
+width:100%;
+position:absolute;
+margin-left:auto; 
+font-size:50px; 
+margin-right:auto;
+}
+
+.maintext2 
+{
+text-align:right;
+
+}
+
+.maintext2 h1
+{
+font-size: 28px !important;
+line-height:28px;
+}
+
+.maintext h1
+{
+font-size: 45px !important;
+}
+
+
+
+
+
+
+
+.lefttext {
+display:inline-block;
+width:20%;
+border:5px solid black;
+position:relative;
+}
+.righttext {
+display:inline-block;
+width:20%;
+border:5px solid black;
+position:relative;
+}
+
+
+
+
+/* Content Template */
+
+.specsize{
+width:90%;
+}
+
+.swiper-button-next
+{
+  display:fixed;
+}
+
+
+
+ .swiper-button-prev
+{
+  display:fixed;
+}
+
+
+#swipemobilela
+{
+ display:none;
+ font-family: "Mazda_rg", Arial, Helvetica;
+}
+
+#master
+{
+margin-top:-10px;
+margin-left:15vw;
+font-size: 16px;
+line-height: 20px;
+color:black;
+/*color: #999;*/
+/*color: #FFFFFF;*/
+/*background-color: #030000;*/
+background-color: black;
+width:85vw;
+overflow-x:hidden;
+position:relative;
+}
+
+
+
+
+#back_btn {
+text-align:center;
+bottom:20px;
+right:20px;
+position:fixed;
+z-index:300;
+width:50px;
+padding:5px;
+margin: 8px 8px 9px;
+text-decoration: none;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+background-color: #53b2fd
+/*background-color: #222;*/ }
+
+
+#back_btn a{
+
+font-size:12px;
+color: #fff;
+text-decoration: none;
+
+}
+
+
+
+
+.content_view
+{
+  margin-top:-25px;
+  width:100%;
+  position:relative;
+ 
+
+}
+
+.bigscreenvideo
+{
+  display:block;
+}
+
+.smallscreenvideo
+{
+  
+  display:none;
+
+}
+
+.video_content_view
+{
+  width:100%;
+  position:relative;
+}
+
+
+
+.videobody {
+display:inline-block;
+height:282px;
+width:490px;
+border:5px solid black;
+position:relative;
+overflow:hidden;
+padding:25px;
+}
+
+.videobody2 {
+display:inline-block;
+height:282px;
+width:490px;
+padding:25px;
+border:5px solid black;
+position:relative;
+overflow:hidden;
+}
+
+.videoitem {
+top:-5px;
+left:-5px;
+width:500px;
+height:282px;
+position:absolute;
+}
+
+.videodesc{
+display:inline-block;
+vertical-align:top;
+text-align:justify;
+width:35%;
+padding:25px;
+}
+
+
+.videocontentmid
+{
+  width:90%;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left:15vw;
+}
+
+.content_viewgallery
+{
+  margin-top:-25px;
+  width:80%;
+  margin-left:15vw;
+  margin-right:auto;
+  position:relative;
+ 
+
+}
+
+.content_viewgallery2
+{
+  margin-top:-25px;
+  width:70%;
+  margin-left:20vw;
+  margin-right:auto;
+  position:relative;
+ 
+
+}
+
+
+.videoskyactiv {
+position: relative;
+width: 100%;
+height:0;
+padding-bottom: 56.25%;
+}
+
+
+.videosky {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.videoskyactiv2 {
+position: relative;
+width: 70vw;
+height: 0;
+padding-bottom: 56.25%;
+}
+.videosky2 {
+position:absolute;
+left:23vw;
+width: 65%;
+height: 65%;
+}
+
+
+#mzdconnect {
+margin-top:-15vw;
+}
+
+
+
+
+
+/*static template */
+
+h1,h2,h3,h4,h5,h6 {font-family: "Mazda_rg", Arial, Helvetica;}
+
+h1 {
+font-size: 28px;
+line-height:28px;
+margin-bottom: 30px;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+text-align:left;
+}
+h2 {
+font-size: 22px; 
+margin-bottom: 10px;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+h3 {
+font-size: 18px;
+line-height:24px;
+margin-bottom: 0px; 
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+text-align:left;
+}
+h4 {
+font-size: 16px;
+line-height:24px;
+margin-bottom: 5px; 
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+h5 {
+font-size: 14px;
+line-height:24px;
+margin-bottom: 5px; 
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+h6 {
+font-size: 12px;
+line-height: 18px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 15px;
+margin-left: 0px;
+}
+h7{
+
+font-size:11px;
+color: #FFF;
+}
+
+
+.blue
+{
+color:#0093d1;
+}
+
+.red
+{
+color:red;
+
+}
+
+.black
+{
+  
+  color: black;
+
+}
+
+.white
+{
+color:white;
+
+}
+
+.button{
+font-family: "Mazda_rg", Arial, Helvetica !important;
+/*background-color:#5d5d5d;*/
+background:red;
+color:#FFF;
+font-size:15px !important;
+padding-top:17px;
+padding-bottom:17px;
+padding-left:35px;
+padding-right:35px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.button a {
+color: #FFF;
+text-decoration: none !important;
+}
+
+.group1.button
+{
+text-decoration: none !important;
+}
+.group2.button
+{
+text-decoration: none !important;
+}
+.group3.button
+{
+text-decoration: none !important;
+}
+.group4.button
+{
+text-decoration: none !important;
+}
+
+.descimage{
+width:110%;
+color:white;
+margin-left:-5%;
+margin-bottom:-15%;
+background-color:rgba(28, 28, 28, 0.5);
+}
+
+.descimagesmall{
+width:110%;
+color:white;
+margin-left:-5%;
+margin-bottom:-15%;
+background-color:rgba(28, 28, 28, 0.5);
+}
+
+
+.background_image{
+width:85vw;
+
+}
+
+.kodo{
+
+ width:30vw;
+ margin-left:30vw;
+ 
+
+}
+
+#navigation {
+top:0px;
+left:0px;
+width:15vw;
+height:100vh;
+background-color: rgba(28, 28, 28, 1);
+position:fixed;
+}
+
+.textcontentmid
+{
+  
+  width:45%;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left:30%;
+  text-align:justify;
+}
+
+
+
+#textmzd
+{
+  right:0vw;
+  top:-20vw;
+  width:45vw; 
+  font-size: 20px;
+  line-height: 45px;
+  position:absolute;
+   text-align:left;
+  
+}
+
+#mzdbutton
+{
+  right:0vw;
+  position:absolute;
+
+}
+
+#mzdtitle{
+
+ top:-33vw;
+ right:0vw;
+ width:20vw;
+ text-align:right;
+ position:absolute;
+
+
+}
+
+#nav1
+{
+ top:2vh;
+ left:1.5vw;
+ position:fixed;
+}
+
+#nav1 li a{
+text-decoration:none;
+color:white;
+}
+
+
+.boxnav
+{
+width:10vw;
+height:7vh;
+vertical-align:middle;
+text-align:center;
+}
+
+a {
+cursor: pointer; }
+
+ul {
+list-style: none;
+padding-left: 10px; }
